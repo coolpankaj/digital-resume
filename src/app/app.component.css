@@ -1,0 +1,189 @@
+
+.navbar {
+    z-index: 1;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white !important;
+    
+    
+}
+
+img#logo {
+    height: 30px;
+    width: 30px;
+    align-self: auto;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(359deg)
+    }
+}
+
+a {
+    color: black;
+    font-weight: 500;    
+    
+}
+
+.navbar-nav {
+   
+    margin-right: 50px !important;
+}
+
+.nav-link {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;    
+    transition-property: border-bottom;
+    transition-delay: 0.5s;
+    /* color: rgb(140, 140, 221);  */
+    color: white !important; 
+  
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white !important;
+    color: rgb(110, 255, 110) !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#section-header  {
+    margin-top: 100px;
+    color: rgb(100, 171, 189);    
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div p.text-data::before, div p.main-line::before {
+    content: "- "
+}
+div p.text-data {
+    color: whitesmoke;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+div p.main-line {
+    word-spacing: 1.2px !important;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div button#go:hover {
+    background-color: rgb(46, 204, 113) !important;
+}
+
+div#areas {    
+  background: rgba(0, 0 ,0, 0.5);
+  transition: 1s;
+/*   padding-bottom: 15px;
+  padding-top: 15px; */
+  border-radius: 5px;
+   
+}
+
+
+
+
+.far, .fas {
+    color:rgb(36, 133, 165);
+    font-size:50px;
+    padding: 5px 0px;
+}
+div#box1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+div#box1:hover {
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    background: rgba(59, 55, 65, 0.9);
+    
+}
+
+div#box2:hover {
+    transition-delay: 0.5s;
+    transition-duration: 1.5s;
+    background: rgba(46, 41, 41, 0.9);
+}
+
+div#box3:hover {
+    transition-delay: 0.5s;
+    transition-duration: 1.5s;
+    background: rgba(66, 69, 119, 0.2);
+}
+
+
+.first {
+   
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 1.5px;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+}
+
+span.first:hover {
+    color: rgb(110, 255, 110) !important;
+    cursor: pointer;
+}
+
+div#first-detail {
+    font-family:  'Montserrat', sans-serif;
+    word-spacing: 1.9px;
+    letter-spacing: 1.4px;
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+div#about-me {
+  
+    background-image: url(./../assets/world-map-png-5.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+    
+}
+
+div#about-me-header p:first-of-type {
+    color: white;
+    font-family: sans-serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+    margin: 30px 0px;
+    text-decoration: underline;
+    -webkit-text-decoration-color: salmon;
+    text-decoration-color: rgb(67, 207, 189);
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style: wavy;    
+
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+div#about-me-detail {
+    color: white;
+    
+    font-size: 16px;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
